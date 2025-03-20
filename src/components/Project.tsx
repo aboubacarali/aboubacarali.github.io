@@ -11,7 +11,10 @@ type Project = {
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-slate-900 text-white h-screen">
+    <section
+      id="projects"
+      className="py-20 bg-slate-900 text-white min-h-screen"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-8">
           <a
