@@ -1,5 +1,4 @@
 {
-  "homepage": "https://aboubacarali.github.io/mon-portfolio/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +7,7 @@
     "dev": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.1",
