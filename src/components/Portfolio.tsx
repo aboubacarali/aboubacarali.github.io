@@ -21,6 +21,7 @@ import {
   Network,
   Database,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 // Types
 const Navigation = () => {
@@ -286,13 +287,13 @@ const Projects = () => {
           </p>
 
           {/* Bouton "Voir mes projets" */}
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             className="inline-flex items-center bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 rounded-full transition-colors"
           >
             Voir mes projets
             <ExternalLink size={20} className="ml-2" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>
