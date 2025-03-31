@@ -319,6 +319,7 @@ const Skills = () => {
       "Symfony",
       "Nest.js",
       "Java",
+      "JEE",
       "Spring",
       "Python",
       "REST API",
