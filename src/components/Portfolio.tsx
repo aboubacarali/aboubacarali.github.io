@@ -552,11 +552,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-slate-800 p-8 rounded-2xl">
             <h3 className="text-xl font-bold mb-6">Envoyez-moi un message</h3>
-            <form
-              className="space-y-6"
-              action="https://formsubmit.co/6bdaddbf88c47ffda41cc8ae8aa96274"
-              method="POST"
-            >
+            <form className="space-y-6">
               <div className="space-y-2">
                 <label className="block text-sm font-medium text-slate-300">
                   Nom complet
